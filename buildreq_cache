@@ -1,0 +1,6 @@
+3.10.1
+alsa-lib-dev
+curl-dev
+glib-dev
+gtk+-dev
+libsndfile-dev

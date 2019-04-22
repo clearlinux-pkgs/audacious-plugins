@@ -1,0 +1,23 @@
+Configure miss: ADLIB
+Configure miss: CDIO
+Configure miss: FLUIDSYNTH
+Configure miss: neaacdec.h usability
+Configure miss: neaacdec.h presence
+Configure miss: neaacdec.h
+Configure miss: NeAACDecInit2 in -lfaad
+Configure miss: MODPLUG
+Configure miss: SIDPLAYFP
+Configure miss: BS2B
+Configure miss: SOXR
+Configure miss: JACK
+Configure miss: JACK
+Configure miss: PULSE
+Configure miss: sio_open in -lsndio
+Configure miss: CUE
+Configure miss: CUE
+Configure miss: MMS
+Configure miss: lirc/lirc_client.h usability
+Configure miss: lirc/lirc_client.h presence
+Configure miss: lirc/lirc_client.h
+Configure miss: lame_get_id3v2_tag in -lmp3lame
+Configure miss: tput

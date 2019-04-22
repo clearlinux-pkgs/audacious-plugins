@@ -1,0 +1,2 @@
+--disable-neon
+--with-ffmpeg=none

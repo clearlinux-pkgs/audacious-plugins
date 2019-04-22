@@ -1,0 +1,9 @@
+# This file contains additional build requirements that did not get
+# picked up automatically. One name per line, no whitespace.
+libogg-dev
+mpg123-dev
+wavpack-dev
+libsndfile-dev
+alsa-lib-dev
+libsamplerate-dev
+libnotify-dev
