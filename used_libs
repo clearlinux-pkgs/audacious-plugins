@@ -25,6 +25,7 @@ libogg.so.0
 libpango-1.0.so.0
 libpangocairo-1.0.so.0
 libpthread.so.0
+libpulse.so.0
 libsamplerate.so.0
 libsndfile.so.1
 libstdc++.so.6

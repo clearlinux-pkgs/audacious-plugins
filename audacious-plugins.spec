@@ -4,7 +4,7 @@
 #
 Name     : audacious-plugins
 Version  : 3.10.1
-Release  : 1
+Release  : 2
 URL      : https://distfiles.audacious-media-player.org/audacious-plugins-3.10.1.tar.bz2
 Source0  : https://distfiles.audacious-media-player.org/audacious-plugins-3.10.1.tar.bz2
 Summary  : No detailed summary available
@@ -26,6 +26,7 @@ BuildRequires : mpg123-dev
 BuildRequires : pkgconfig(Qt5OpenGL)
 BuildRequires : pkgconfig(audacious)
 BuildRequires : pkgconfig(flac)
+BuildRequires : pkgconfig(libpulse)
 BuildRequires : pkgconfig(libxml-2.0)
 BuildRequires : pkgconfig(sdl)
 BuildRequires : pkgconfig(sdl2)
@@ -82,15 +83,19 @@ locales components for the audacious-plugins package.
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
-export LANG=C
-export SOURCE_DATE_EPOCH=1555910031
-export LDFLAGS="${LDFLAGS} -fno-lto"
+export LANG=C.UTF-8
+export SOURCE_DATE_EPOCH=1568143794
+export GCC_IGNORE_WERROR=1
+export CFLAGS="$CFLAGS -fno-lto "
+export FCFLAGS="$CFLAGS -fno-lto "
+export FFLAGS="$CFLAGS -fno-lto "
+export CXXFLAGS="$CXXFLAGS -fno-lto "
 %configure --disable-static --disable-neon \
 --with-ffmpeg=none
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1555910031
+export SOURCE_DATE_EPOCH=1568143794
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/audacious-plugins
 cp COPYING %{buildroot}/usr/share/package-licenses/audacious-plugins/COPYING
@@ -274,6 +279,7 @@ cp src/xsf/desmume/COPYING %{buildroot}/usr/share/package-licenses/audacious-plu
 /usr/lib64/audacious/Output/alsa.so
 /usr/lib64/audacious/Output/filewriter.so
 /usr/lib64/audacious/Output/oss4.so
+/usr/lib64/audacious/Output/pulse_audio.so
 /usr/lib64/audacious/Output/sdlout.so
 /usr/lib64/audacious/Transport/gio.so
 /usr/lib64/audacious/Visualization/blur_scope.so

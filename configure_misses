@@ -1,3 +1,4 @@
+Configure miss: windres
 Configure miss: ADLIB
 Configure miss: CDIO
 Configure miss: FLUIDSYNTH
@@ -11,7 +12,6 @@ Configure miss: BS2B
 Configure miss: SOXR
 Configure miss: JACK
 Configure miss: JACK
-Configure miss: PULSE
 Configure miss: sio_open in -lsndio
 Configure miss: CUE
 Configure miss: CUE
