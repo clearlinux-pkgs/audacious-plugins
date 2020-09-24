@@ -4,7 +4,7 @@
 #
 Name     : audacious-plugins
 Version  : 3.10.1
-Release  : 3
+Release  : 4
 URL      : https://distfiles.audacious-media-player.org/audacious-plugins-3.10.1.tar.bz2
 Source0  : https://distfiles.audacious-media-player.org/audacious-plugins-3.10.1.tar.bz2
 Summary  : No detailed summary available
