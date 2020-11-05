@@ -1,4 +1,6 @@
 Configure miss: windres
+Configure miss: 32-bit host C ABI
+Configure miss: CFLocaleCopyPreferredLanguages
 Configure miss: ADLIB
 Configure miss: CDIO
 Configure miss: FLUIDSYNTH
@@ -7,6 +9,7 @@ Configure miss: neaacdec.h presence
 Configure miss: neaacdec.h
 Configure miss: NeAACDecInit2 in -lfaad
 Configure miss: MODPLUG
+Configure miss: OPENMPT
 Configure miss: SIDPLAYFP
 Configure miss: BS2B
 Configure miss: SOXR
@@ -19,5 +22,6 @@ Configure miss: MMS
 Configure miss: lirc/lirc_client.h usability
 Configure miss: lirc/lirc_client.h presence
 Configure miss: lirc/lirc_client.h
+Configure miss: QTMULTIMEDIA
 Configure miss: lame_get_id3v2_tag in -lmp3lame
 Configure miss: tput

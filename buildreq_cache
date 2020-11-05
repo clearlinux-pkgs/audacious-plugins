@@ -1,6 +1,3 @@
-3.10.1
-alsa-lib-dev
+4.0.5
 curl-dev
-glib-dev
-gtk+-dev
-libsndfile-dev
+mesa-dev
