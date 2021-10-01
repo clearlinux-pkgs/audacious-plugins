@@ -1,27 +1,25 @@
-Configure miss: windres
 Configure miss: 32-bit host C ABI
-Configure miss: CFLocaleCopyPreferredLanguages
 Configure miss: ADLIB
-Configure miss: CDIO
-Configure miss: FLUIDSYNTH
-Configure miss: neaacdec.h usability
-Configure miss: neaacdec.h presence
-Configure miss: neaacdec.h
-Configure miss: NeAACDecInit2 in -lfaad
-Configure miss: MODPLUG
-Configure miss: OPENMPT
-Configure miss: SIDPLAYFP
 Configure miss: BS2B
-Configure miss: SOXR
-Configure miss: JACK
-Configure miss: JACK
-Configure miss: sio_open in -lsndio
+Configure miss: CDIO
+Configure miss: CFLocaleCopyPreferredLanguages
 Configure miss: CUE
 Configure miss: CUE
+Configure miss: FLUIDSYNTH
+Configure miss: JACK
+Configure miss: JACK
 Configure miss: MMS
-Configure miss: lirc/lirc_client.h usability
-Configure miss: lirc/lirc_client.h presence
-Configure miss: lirc/lirc_client.h
+Configure miss: MODPLUG
+Configure miss: NeAACDecInit2 in -lfaad
+Configure miss: OPENMPT
 Configure miss: QTMULTIMEDIA
+Configure miss: QTX11EXTRAS
+Configure miss: SIDPLAYFP
+Configure miss: SOXR
+Configure miss: g++ option to enable C++11 features
 Configure miss: lame_get_id3v2_tag in -lmp3lame
+Configure miss: lirc/lirc_client.h
+Configure miss: neaacdec.h
+Configure miss: sio_open in -lsndio
 Configure miss: tput
+Configure miss: windres
