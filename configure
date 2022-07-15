@@ -1,2 +1,2 @@
---disable-neon
---with-ffmpeg=none
+-Dneon=false
+-Dffaudio=false

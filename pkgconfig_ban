@@ -1,7 +1,15 @@
 # This file contains pkgconfig build requirements that get picked up
 # but are undesirable. One entry per line, no whitespace.
+adplug
+ampache_browser_1
 jack
 libavcodec
 libavformat
 libavutil
+libbs2b
+libcdio_cdda
 libcue
+libmms
+libopenmpt
+libsidplayfp
+soxr

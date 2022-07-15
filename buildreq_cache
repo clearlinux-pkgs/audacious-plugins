@@ -1,3 +1,9 @@
-4.1
+4.2
 curl-dev
 gtk+-dev
+pkgconfig(fluidsynth)
+pkgconfig(gtk+-2.0)
+pkgconfig(libcddb)
+pkgconfig(libcdio)
+pkgconfig(libcurl)
+pkgconfig(libmodplug)
