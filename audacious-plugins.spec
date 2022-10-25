@@ -4,7 +4,7 @@
 #
 Name     : audacious-plugins
 Version  : 4.2
-Release  : 9
+Release  : 10
 URL      : https://distfiles.audacious-media-player.org/audacious-plugins-4.2.tar.bz2
 Source0  : https://distfiles.audacious-media-player.org/audacious-plugins-4.2.tar.bz2
 Summary  : No detailed summary available
