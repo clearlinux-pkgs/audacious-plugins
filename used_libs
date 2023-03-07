@@ -1,4 +1,4 @@
-libFLAC.so.8
+libFLAC.so.12
 libGL.so.1
 libQt5Core.so.5
 libQt5Gui.so.5
@@ -22,6 +22,7 @@ libglib-2.0.so.0
 libgmodule-2.0.so.0
 libgobject-2.0.so.0
 libgtk-x11-2.0.so.0
+libjack.so.0
 libm.so.6
 libmodplug.so.1
 libmpg123.so.0
@@ -30,6 +31,7 @@ libnotify.so.4
 libogg.so.0
 libpango-1.0.so.0
 libpangocairo-1.0.so.0
+libpipewire-0.3.so.0
 libpulse.so.0
 libsamplerate.so.0
 libsndfile.so.1

@@ -1,9 +1,16 @@
-4.2
+4.3
 curl-dev
 gtk+-dev
+mesa-dev
+opus-dev
 pkgconfig(fluidsynth)
 pkgconfig(gtk+-2.0)
 pkgconfig(libcddb)
 pkgconfig(libcdio)
 pkgconfig(libcurl)
 pkgconfig(libmodplug)
+pkgconfig(libpipewire-0.3)
+pkgconfig(libspa-0.2)
+pkgconfig(opus)
+pkgconfig(opusfile)
+pkgconfig(sndio)

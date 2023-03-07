@@ -7,3 +7,5 @@ libsndfile-dev
 alsa-lib-dev
 libsamplerate-dev
 libnotify-dev
+jack2-dev
+opusfile-dev
