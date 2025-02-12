@@ -1,3 +1,6 @@
 flac
 vorbis
 libpulse
+Qt6Core
+Qt6Gui
+Qt6Widgets

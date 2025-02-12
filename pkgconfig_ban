@@ -2,7 +2,9 @@
 # but are undesirable. One entry per line, no whitespace.
 adplug
 ampache_browser_1
+faad2
 jack
+lame
 libavcodec
 libavformat
 libavutil
@@ -12,5 +14,6 @@ libcue
 libmms
 libopenmpt
 libsidplayfp
+lirc
 soxr
 sndio
